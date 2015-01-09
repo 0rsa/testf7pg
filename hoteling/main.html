@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html class="with-statusbar-overlay">
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- Your app title -->
+    <title>My App</title>
+	<link href="../font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="../Framework7-0.10.0/dist/css/pe-icon-7-stroke.css">
+	<link rel="stylesheet" href="../Framework7-0.10.0/dist/css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="../Framework7-0.10.0/dist/css/pwc.css">
+	
+  </head>
+  <body>
+    <!-- Status bar overlay for full screen mode (PhoneGap) -->
+    <div class="statusbar-overlay"></div>
+    <!-- Views -->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Top Navbar-->
+        <div class="navbar">
+          <div class="navbar-inner">
+            <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
+            <div class="left">
+				<a href="#" class="link icon-only">
+					<i class="pe-7s-camera"></i>
+				</a>
+			</div>
+			<div class="center">
+					<a data-ignoreCache="true" href="search.html" class="link icon-only"><i class="pe-7s-search"></i></a>
+			</div>
+			<div class="right">
+				<a href="#" class="link icon-only">
+					<i class="pe-7s-plus"></i>
+				</a>
+			</div>
+          </div>
+        </div>
+        <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through">
+          <!-- Page, "data-page" contains page name -->
+          <div data-page="index" class="page">
+            <!-- Scrollable page content -->
+			
+            <div class="page-content" style="">
+              
+				<div style="position:fixed;z-index:9999;">
+					<div><img src="img_crystalpark.png" style="display:block;"/></div>
+					  <div style="position:absolute;width:49px;height:33px;margin-left:15px;margin-top:-80px;background:url(ico_logo.png);z-index:99;"></div>
+					  <div style="position:absolute;height:50px;background:rgba(255,255,255,0.8);width:320px;margin-top:-51px;border-top:1px solid #fff;">
+						<div style="font-size:16px;margin-left:15px;margin-top:8px;">Desks & Rooms Booking</div>
+						<div style="font-size:10px;margin-left:15px;">MANAGE YOUR DESKS AND MEETING ROOMS</div>
+					  </div>
+				</div>
+              
+				<div class="list-block" style="margin-top:185px;">
+					<ul>
+						<li class="item-content">
+						  <div class="item-media" style="font-size:13px;width: 65px;">Thu 08 Jan</div>
+						  <div class="item-inner" style="padding-right:0px;">
+							<div class="item-title">
+								<div style="height:22px;width:44px;text-align:center;line-height:22px;color:#fff;background:#ffb600;font-size:10px;float:left;">AM</div>
+								<div style="height:22px;float:left;margin-left:8px;font-weight:bold;">A.1.149.3</div>
+							</div>
+							<div class="item-after">
+								<a href="#" data-popup=".popup-about" class="open-popup icon-only"><div style="display:inline-block;border-left:1px solid #c8c7cc;height:44px;margin-top:-9px;width:44px;text-align:center;"><i class="pe-7s-map-marker" style="line-height:44px;"></i></div></a>
+								<div style="display:inline-block;border-left:1px solid #c8c7cc;height:44px;margin-top:-9px;width:44px;text-align:center;"><i class="pe-7s-plus" style="line-height:44px;"></i></div>
+							</div>
+						  </div>
+						</li>
+						<li class="item-content">
+						  <div class="item-media" style="font-size:13px;color:#fff;width: 65px;">Thu 08 Jan</div>
+						  <div class="item-inner" style="padding-right:0px;">
+							<div class="item-title">
+								<div style="height:22px;width:44px;text-align:center;line-height:22px;color:#fff;background:#a32020;font-size:10px;float:left;">PM</div>
+								<div style="height:22px;float:left;margin-left:8px;font-weight:bold;">A.1.149.3</div>
+							</div>
+							<div class="item-after">
+								<div style="display:inline-block;border-left:1px solid #c8c7cc;height:44px;margin-top:-9px;width:44px;text-align:center;"><i class="pe-7s-map-marker" style="line-height:44px;"></i></div>
+								<div style="display:inline-block;border-left:1px solid #c8c7cc;height:44px;margin-top:-9px;width:44px;text-align:center;"><i class="pe-7s-plus" style="line-height:44px;"></i></div>
+							</div>
+						  </div>
+						</li>
+					</ul>
+					<ul style="border-top:none;">
+						<li class="item-content">
+						  <div class="item-media" style="font-size:13px;width: 65px;">Fri 09 Jan</div>
+						  <div class="item-inner" style="padding-right:0px;">
+							<div class="item-title">
+								<div style="height:22px;width:44px;text-align:center;line-height:22px;color:#fff;background:#ffb600;font-size:10px;float:left;">AM</div>
+								<div style="height:22px;float:left;margin-left:8px;font-weight:bold;">A.1.149.3</div>
+							</div>
+							<div class="item-after">
+								<div style="display:inline-block;border-left:1px solid #c8c7cc;height:44px;margin-top:-9px;width:44px;text-align:center;"><i class="pe-7s-map-marker" style="line-height:44px;"></i></div>
+								<div style="display:inline-block;border-left:1px solid #c8c7cc;height:44px;margin-top:-9px;width:44px;text-align:center;"><i class="pe-7s-plus" style="line-height:44px;"></i></div>
+							</div>
+						  </div>
+						</li>
+						<li class="item-content">
+						  <div class="item-media" style="font-size:13px;color:#fff;width: 65px;">Thu 08 Jan</div>
+						  <div class="item-inner" style="padding-right:0px;">
+							<div class="item-title">
+								<div style="height:22px;width:44px;text-align:center;line-height:22px;color:#fff;background:#a32020;font-size:10px;float:left;">PM</div>
+								<div style="height:22px;float:left;margin-left:8px;font-weight:bold;">A.1.149.3</div>
+							</div>
+							<div class="item-after">
+								<div style="display:inline-block;border-left:1px solid #c8c7cc;height:44px;margin-top:-9px;width:44px;text-align:center;"><i class="pe-7s-map-marker" style="line-height:44px;"></i></div>
+								<div style="display:inline-block;border-left:1px solid #c8c7cc;height:44px;margin-top:-9px;width:44px;text-align:center;"><i class="pe-7s-plus" style="line-height:44px;"></i></div>
+							</div>
+						  </div>
+						</li>
+					</ul>
+					<ul style="border-top:none;">
+						<li class="item-content">
+						  <div class="item-media" style="font-size:13px;width: 65px;">Mon 12 Jan</div>
+						  <div class="item-inner" style="padding-right:0px;">
+							<div class="item-title">
+								<div style="height:22px;width:44px;text-align:center;line-height:22px;color:#fff;background:#ffb600;font-size:10px;float:left;">AM</div>
+								<div style="height:22px;float:left;margin-left:8px;font-weight:bold;">A.1.149.3</div>
+							</div>
+							<div class="item-after">
+								<div style="display:inline-block;border-left:1px solid #c8c7cc;height:44px;margin-top:-9px;width:44px;text-align:center;"><i class="pe-7s-map-marker" style="line-height:44px;"></i></div>
+								<div style="display:inline-block;border-left:1px solid #c8c7cc;height:44px;margin-top:-9px;width:44px;text-align:center;"><i class="pe-7s-plus" style="line-height:44px;"></i></div>
+							</div>
+						  </div>
+						</li>
+						<li class="item-content">
+						  <div class="item-media" style="font-size:13px;color:#fff;width: 65px;">Thu 08 Jan</div>
+						  <div class="item-inner" style="padding-right:0px;">
+							<div class="item-title">
+								<div style="height:22px;width:44px;text-align:center;line-height:22px;color:#fff;background:#a32020;font-size:10px;float:left;">PM</div>
+								<div style="height:22px;float:left;margin-left:8px;font-weight:bold;">A.1.149.3</div>
+							</div>
+							<div class="item-after">
+								<div style="display:inline-block;border-left:1px solid #c8c7cc;height:44px;margin-top:-9px;width:44px;text-align:center;"><i class="pe-7s-map-marker" style="line-height:44px;"></i></div>
+								<div style="display:inline-block;border-left:1px solid #c8c7cc;height:44px;margin-top:-9px;width:44px;text-align:center;"><i class="pe-7s-plus" style="line-height:44px;"></i></div>
+							</div>
+						  </div>
+						</li>
+					</ul>
+					<ul style="border-top:none;">
+						<li class="item-content">
+						  <div class="item-media" style="font-size:13px;width: 65px;">Tue 13 Jan</div>
+						  <div class="item-inner" style="padding-right:0px;">
+							<div class="item-title">
+								<div style="height:22px;width:44px;text-align:center;line-height:22px;color:#fff;background:#ffb600;font-size:10px;float:left;">AM</div>
+								<div style="height:22px;float:left;margin-left:8px;font-weight:bold;">A.1.149.3</div>
+							</div>
+							<div class="item-after">
+								<div style="display:inline-block;border-left:1px solid #c8c7cc;height:44px;margin-top:-9px;width:44px;text-align:center;"><i class="pe-7s-map-marker" style="line-height:44px;"></i></div>
+								<div style="display:inline-block;border-left:1px solid #c8c7cc;height:44px;margin-top:-9px;width:44px;text-align:center;"><i class="pe-7s-plus" style="line-height:44px;"></i></div>
+							</div>
+						  </div>
+						</li>
+						<li class="item-content">
+						  <div class="item-media" style="font-size:13px;color:#fff;width: 65px;">Thu 08 Jan</div>
+						  <div class="item-inner" style="padding-right:0px;">
+							<div class="item-title">
+								<div style="height:22px;width:44px;text-align:center;line-height:22px;color:#fff;background:#a32020;font-size:10px;float:left;">PM</div>
+								<div style="height:22px;float:left;margin-left:8px;font-weight:bold;">A.1.149.3</div>
+							</div>
+							<div class="item-after">
+								<div style="display:inline-block;border-left:1px solid #c8c7cc;height:44px;margin-top:-9px;width:44px;text-align:center;"><i class="pe-7s-map-marker" style="line-height:44px;"></i></div>
+								<div style="display:inline-block;border-left:1px solid #c8c7cc;height:44px;margin-top:-9px;width:44px;text-align:center;"><i class="pe-7s-plus" style="line-height:44px;"></i></div>
+							</div>
+						  </div>
+						</li>
+					</ul>
+				</div>
+				
+				
+			  
+            </div>
+			
+          </div>
+        </div>
+		
+		
+		
+        <!-- Bottom Toolbar-->
+        
+      </div>
+   </div>
+   
+   <div class="popup popup-about">
+			<div style="position:absolute;height:50px;margin-top:0px;text-align:center;line-height:50px;width:320px;background:#dc6900;color:#fff;">A.1.149.3</div>
+			<div style="position:absolute;height:50px;margin-top:498px;text-align:center;line-height:50px;width:320px;background:#dc6900;"><a href="#" class="close-popup" style="color:#fff;">Close popup</a></div>
+					<div class="content-block">
+					  
+					</div>
+				  </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="../Framework7-0.10.0/dist/js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="../Framework7-0.10.0/dist/js/jquery.mousewheel-3.0.6.min.js"></script>
+	<script type="text/javascript" src="../Framework7-0.10.0/dist/js/jquery.mCustomScrollbar.min.js"></script>
+	<script type="text/javascript" src="../Framework7-0.10.0/dist/js/framework7.min.js"></script>
+	<script>
+		$(".page-content").mCustomScrollbar({
+			autoHideScrollbar: true,
+			scrollbarPosition: "outside"
+		});
+		var myApp = new Framework7({
+			animateNavBackIcon:true,
+			 template7Pages: true,
+			 ignoreCache: true
+		});
+		// Export selectors engine
+		var $$ = Dom7;
+
+		// Add main View
+		var mainView = myApp.addView('.view-main', {
+			// Enable dynamic Navbar
+			dynamicNavbar: true,
+			// Enable Dom Cache so we can use all inline pages
+			domCache: false
+			
+		});
+		myApp.onPageAfterAnimation('*', function (page) {
+			$(".page-content").mCustomScrollbar({
+				autoHideScrollbar: true,
+				scrollbarPosition: "outside"
+			});
+		});
+	</script>
+  </body>
+</html> 
